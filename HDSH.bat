@@ -1,9 +1,9 @@
 @echo off 
 if [%1]==[] (
-echo HDSH : ^(c^)Ahmed Abied : medooped020@gmail.com
+echo %~n0.exe : ^(c^)Ahmed Abied : medooped020@gmail.com
 echo Version: 0.0.1 
 echo.
-echo Usage: HDSH [Path] [Show / Hide ^(Defult^)]
+echo Usage: %~n0.exe [Path] [Show / Hide ^(Defult^)]
 echo. 
 echo Show  : Show a hidden File/Folder 
 echo Hide  : Hide a visible File/Folder 
@@ -12,7 +12,7 @@ echo Description:
 echo    CMD tool to hide and deny the user access for the file or the folder 
 echo.
 echo Examples:
-echo   Hdsh D:\*.jpg show  
+echo   %~n0 D:\*.jpg show  
 echo.
 echo Note:
 echo   The tool is still under development
